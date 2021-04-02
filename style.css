@@ -1,0 +1,105 @@
+.dial {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.timer {
+  display: inline-block;
+  display: block;
+  margin: auto;
+  height: 100%;
+}
+
+* {
+  font: inherit;
+}
+
+body {
+  font-family: 'Pacifico', cursive;  
+  background-image: url("triangle.jpg");
+}
+
+.timer input {
+  display: block;
+  border: none;
+  width: 200px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.timer button {
+  border: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.timer button:focus {
+  outline: none;
+}
+
+.timer input:focus {
+  outline: none;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.controlsbox {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 100px;
+  padding: 20px;
+  margin: auto;
+}
+
+#duration {
+  background: transparent;
+  color: white;
+  z-index: 1;
+}
+
+.fa-play {
+  color: white;
+}
+
+.fa-pause {
+  color: white;
+}
+
+#start {
+  background: transparent;
+  z-index: 1;
+}
+
+#pause {
+  background: transparent;
+  z-index: 1;
+}
+
+.controlbuttons {
+  text-align: center;
+}
